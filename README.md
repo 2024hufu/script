@@ -41,7 +41,7 @@ source ~/.bashrc
 mysql
 
 ```go
-docker run -p 3306:3306 --name gva_mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql:lastet
+docker run -p 3306:3306 --name gva_mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql:latest
 
 docker run -p 3306:3306 --name webase_mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.6
 ```
